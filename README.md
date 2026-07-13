@@ -24,9 +24,7 @@
 
 This repository provides the implementation of the **Adaptive Oscillator (AO)** algorithm from the paper:
 
-> **Real-Time Assistive Control of Hip Exoskeleton Based on Motion Prediction**
-
-The repository contains only the core implementation of the AO model, which is mainly used for:
+The repository contains only **the core implementation of the AO model**, which is mainly used for:
 
 - Gait phase prediction
 - System delay compensation
