@@ -18,6 +18,10 @@
 - **开发板：** STM32 DM MC02
 - **电机：** 8108 24V 无刷电机（BLDC Motor）
 
+## 📚 参考论文
+
+> 李伟，张强，王磊. **基于运动预测的髋关节外骨骼实时助力控制**[J]. 机器人，2023，45(3)：312-321.
+
 # Real-Time Assistive Control of Hip Exoskeleton Based on Motion Prediction - AO Algorithm Implementation
 
 ## 📖 Project Overview
@@ -36,5 +40,7 @@ The repository contains only **the core implementation of the AO model**, which 
 - **Development Board:** STM32 DM MC02
 - **Motor:** 8108 24V BLDC Motor
 
+## 📚 Reference
 
+> Li W, Zhang Q, Wang L. **Real-Time Assistive Control of Hip Exoskeleton Based on Motion Prediction**[J]. *Robot*, 2023, 45(3): 312–321.
 
