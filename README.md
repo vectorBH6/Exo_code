@@ -11,7 +11,7 @@
 - 步态相位预测（Gait Phase Prediction）
 - 系统延时补偿（Delay Compensation）
 
-> **注意：** 本项目仅复现论文中的 AO 算法模块，不包含完整的混合振荡器（Hybrid Oscillator，HO）系统及上层决策策略。
+> **注意：** 本项目仅复现论文中的 AO 算法模块，不包含完整的混合振荡器（Hybrid Oscillator，HO）系统及上层决策策略，**中间穿插了魔改小N的算法，以及虚拟步态数据（用于算法简单验证），需要加上注释才能使用实机步态，最后vofa可以看到预测步态，相位变换和第一级预测频率，可以根据预测频率来动态修改魔改小N的算法延迟部分，以匹配不同频率的步态，不过因时间原因该部分暂未实现**。
 
 ## 🛠️ 硬件平台
 
@@ -33,7 +33,7 @@ The repository contains only **the core implementation of the AO model**, which 
 - Gait phase prediction
 - System delay compensation
 
-> **Note:** This repository reproduces only the AO algorithm described in the paper. The complete Hybrid Oscillator (HO) framework and high-level assistive control strategies are **not included**.
+> **Note:** This repository reproduces only the AO algorithm described in the paper. The complete Hybrid Oscillator (HO) framework and high-level assistive control strategies are not included, **The algorithm incorporates a modified Xiao-N algorithm, along with virtual gait data (used for preliminary algorithm validation). // must be added to the code before real-robot gait data can be utilized. In VOFA, you can visualize the predicted gait, phase transformation, and the first-stage predicted frequency. Based on this predicted frequency, the delay component of the modified Xiao-N algorithm could be dynamically adjusted to accommodate gaits at varying frequencies; however, due to time constraints, this feature has not yet been implemented.**.
 
 ## 🛠️ Hardware Platform
 
